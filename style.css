@@ -38,6 +38,7 @@ body{
     justify-content: space-between;
     align-items: center;
     color: #fff;
+    transition: 0.5s ease;
 }
 
 .logo{
@@ -49,7 +50,7 @@ body{
 }
 
 
-.logo span{
+span{
     font-weight: 300;
 }
 
@@ -137,15 +138,22 @@ p{
 .btn{
     margin-top: 1rem;
     padding: 0.6rem 1.8rem;
-    background-color: rgba(43, 51, 159, 0.3);
+    background-color: transparent;
     border: none;
     border-radius: 25px;
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
     text-decoration: none;
+    font-weight: 600;
+    transition: 0.5s ease;
 }
-
+.btn:hover{
+    background-color: white;
+    color: rgba(43, 51, 59, 0.7);
+    font-weight: 600;
+    backdrop-filter: brightness(1.5);
+}
 
 
 .container.active .bar{
