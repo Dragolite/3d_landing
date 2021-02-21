@@ -1,3 +1,3 @@
-3D landing
-Landing Page with a cool 3d navbar
+Landing Page with a cool 3D navbar
+
 Check out this amazing design by clicking [HERE]()
